@@ -17,7 +17,6 @@ if (OperatingSystem.IsMacOS())
 }
 
 // Add services to the container.
-//builder.Services.AddGrpc();
 builder.Services.AddGrpcHttpApi();
 builder.Services.AddSwaggerGen(options =>
 {
